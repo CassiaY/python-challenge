@@ -35,7 +35,7 @@ print(f"Greatest Increase in Profits:  {inc_mo} (${inc})")
 print(f"Greatest Decrease in Profits:  {dec_mo} (${dec})")
 
 #Exporting results to a text file:
-output_path = os.path.join("PyBank/PyBank_output.txt")
+output_path = os.path.join("PyBank/analysis/PyBank_output.txt")
 with open(output_path, 'w') as text:
     text.write("Financial Analysis\n")
     text.write("----------------------------\n")
